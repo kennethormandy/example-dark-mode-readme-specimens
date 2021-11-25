@@ -1,15 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840">
   <style type="text/css">
   path { fill: green; }
+  .bg { fill: white; }
 
-  @media (prefers-color-scheme) {
-    path { fill: red; }
+  @supports (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
+      path { fill: blue; }
+      .bg { fill: transparent; }
+    }
   }
 
-  @media (prefers-color-scheme: dark) {
-    path { fill: blue; }
-  }
   </style>
+  <rect class="bg" x="0" y="0" width="1200" height="840" />
   <g>
     <path d="M123.56348,308.6792V194.05029h29.66406V308.6792Z" />
     <path d="M170.80811,308.6792V223.71436h23.855l1.93652,8.2871H197.916q9.29442-9.68041,24.31982-9.68115a32.80224,32.80224,0,0,1,15.21973,3.44629,24.19,24.19,0,0,1,10.5332,11.03711q3.83423,7.59156,3.834,20.06006V308.6792H222.77832V258.72266q0-6.58229-2.67236-9.062a10.345,10.345,0,0,0-7.31885-2.47851,19.03254,19.03254,0,0,0-7.126,1.394,15.08344,15.08344,0,0,0-5.80859,4.02783v56.0752Z" />
