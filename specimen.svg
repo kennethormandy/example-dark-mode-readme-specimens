@@ -1,15 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840">
   <style type="text/css">
-  * { fill: red; }
+  path { fill: red; }
   .bg { fill: pink; }
 
+  @media (prefers-color-scheme) {
+    path { fill: orange; }
+    .bg { fill: yellow; }
+  }
+
   @media (prefers-color-scheme: dark) {
-    * { fill: blue; }
+    path { fill: blue; }
     .bg { fill: lightblue; }
   }
 
   @media (prefers-color-scheme: light) {
-    * { fill: green; }
+    path { fill: green; }
     .bg { fill: lightgreen; }
   }
 
