@@ -1,9 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840">
-  <style>
-  * { fill: black; }
+  <style type="text/css">
+  path { fill: green; }
+
+  @media (prefers-color-scheme) {
+    path { fill: red; }
+  }
 
   @media (prefers-color-scheme: dark) {
-    * { fill: white; }
+    path { fill: blue; }
   }
   </style>
   <g>
