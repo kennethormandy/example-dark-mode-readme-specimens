@@ -1,13 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840">
   <style type="text/css">
-  path { fill: green; }
+  * { fill: black; }
   .bg { fill: white; }
 
-  @supports (prefers-color-scheme: dark) {
-    @media (prefers-color-scheme: dark) {
-      path { fill: blue; }
-      .bg { fill: transparent; }
-    }
+  @media (prefers-color-scheme: dark) {
+    * { fill: white; }
+    .bg { fill: transparent; }
+  }
+
+  @media (prefers-color-scheme: light) {
+    * { fill: black; }
+    .bg { fill: transparent; }
   }
 
   </style>
