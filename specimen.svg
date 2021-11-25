@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840">
   <style type="text/css">
-  * { fill: black; }
-  .bg { fill: white; }
+  * { fill: red; }
+  .bg { fill: pink; }
 
   @media (prefers-color-scheme: dark) {
-    * { fill: white; }
-    .bg { fill: transparent; }
+    * { fill: blue; }
+    .bg { fill: lightblue; }
   }
 
   @media (prefers-color-scheme: light) {
-    * { fill: black; }
-    .bg { fill: transparent; }
+    * { fill: green; }
+    .bg { fill: lightgreen; }
   }
 
   </style>
