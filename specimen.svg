@@ -51,13 +51,23 @@
     </g>
   </defs>
 
-  <view id="gh-light-mode-only" viewBox="0 0 1200 840">
-    <rect x="0" y="0" width="500" height="500" fill="blue" />
-    <use xlink:href="#specimen" fill="black" />
-  </view>
+  <view id="gh-light-mode-only" viewBox="0 0 1200 840" />
+  <g class="gh-light" >
+    <use xlink:href="#specimen" />
+  </g>
 
-  <view id="gh-dark-mode-only" viewBox="0 0 1200 840">
-    <rect x="0" y="0" width="500" height="500" fill="red" />
-    <use xlink:href="#specimen" fill="white" />
-  </view>
+  <view id="gh-dark-mode-only" viewBox="0 0 1200 840" />
+  <g class="gh-dark">
+    <use xlink:href="#specimen" />
+  </g>
+
+  <style>
+  .gh-dark * {
+    fill: white;
+  }
+
+  .gh-light * {
+    fill: black;
+  }
+  </style>
 </svg>
