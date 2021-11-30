@@ -1,5 +1,5 @@
 <svg viewBox="0 0 1200 840" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
+  <defs style="display: none">
     <g id="specimen">
       <g>
         <path d="M123.56348,308.6792V194.05029h29.66406V308.6792Z" />
@@ -64,6 +64,12 @@
   </g>
 
   <style>
+  defs {
+    height: 0;
+    position: absolute;
+    width: 0;
+  }
+
   .gh-dark * {
     fill: white !important;
   }
