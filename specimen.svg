@@ -53,21 +53,23 @@
 
   <view id="gh-light-mode-only" viewBox="0 0 1200 840" />
   <g class="gh-light">
+    <rect x="0" y="0" width="100" height="100" />
     <use xlink:href="#specimen" />
   </g>
 
   <view id="gh-dark-mode-only" viewBox="0 0 1200 840" />
   <g class="gh-dark">
+    <rect x="100" y="100" width="100" height="100" />
     <use xlink:href="#specimen" />
   </g>
 
   <style>
   .gh-dark * {
-    fill: white;
+    fill: white !important;
   }
 
   .gh-light * {
-    fill: black;
+    fill: black !important;
   }
   </style>
 </svg>
