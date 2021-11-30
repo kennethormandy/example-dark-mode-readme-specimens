@@ -1,7 +1,6 @@
 # Example
 
-![](./specimen.svg)
-
+![](./specimen.svg#gh-light-mode-only)![](./specimen.svg#gh-dark-mode-only)
 
 ## Background
 
