@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840">
+<svg viewBox="0 0 1200 840" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <g id="specimen">
       <g>
@@ -52,10 +52,12 @@
   </defs>
 
   <view id="gh-light-mode-only" viewBox="0 0 1200 840">
+    <rect x="0" y="0" width="500" height="500" fill="blue" />
     <use xlink:href="#specimen" fill="black" />
   </view>
 
   <view id="gh-dark-mode-only" viewBox="0 0 1200 840">
+    <rect x="0" y="0" width="500" height="500" fill="red" />
     <use xlink:href="#specimen" fill="white" />
   </view>
 </svg>
